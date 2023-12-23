@@ -1,5 +1,27 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
     "react-icons": "^4.12.0"
-  }
+  },
+  "name": "mermongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetostois/projectMern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tetostois/projectMern/issues"
+  },
+  "homepage": "https://github.com/tetostois/projectMern#readme",
+  "description": ""
 }
